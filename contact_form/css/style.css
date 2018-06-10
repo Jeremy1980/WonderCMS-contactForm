@@ -5,9 +5,14 @@ div#containerform {
 	padding: 0px 0px 0px 0px;
 	background-color: transparent;
 	font: 10px Verdana, Arial, Helvetica, sans-serif;
+	color: #000;
 }
 
 div#errors {
+	width: 400px;
+	margin:0 auto;
+}
+div#message {
 	width: 400px;
 	margin:0 auto;
 }
@@ -64,5 +69,3 @@ div#errors {
 #containerform label.fout {
 	color: #FF0000;
 }
-
-p.message {color: #347ebd;}
